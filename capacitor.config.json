@@ -1,0 +1,9 @@
+{
+  "appId": "br.dialeticai.app",
+  "appName": "DialeticAI",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": false
+  }
+}
