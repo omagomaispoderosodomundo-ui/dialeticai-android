@@ -1,0 +1,17 @@
+{
+  "name": "dialeticai-android",
+  "version": "4.1.0",
+  "private": true,
+  "description": "DialeticAI Android wrapper using Capacitor",
+  "scripts": {
+    "build": "echo 'Static HTML app ready'",
+    "android:sync": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "@capacitor/android": "^7.4.3"
+  }
+}
