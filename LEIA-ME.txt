@@ -1,0 +1,20 @@
+DIALETICAI — PROJETO ANDROID (CAPACITOR)
+
+Este pacote contém o HTML da versão 4.1 e uma configuração para compilar um APK Android pelo GitHub Actions.
+
+IMPORTANTE:
+- Este ZIP ainda NÃO é um APK instalável.
+- A compilação precisa ocorrer no GitHub Actions (servidor Linux com Android SDK/Gradle).
+- Não coloque chaves secretas da OpenRouter no código. Cada usuário deve inserir sua própria chave dentro do DialeticAI.
+- A Publishable Key do Supabase pode ficar no cliente; nunca inclua Supabase Secret/service_role.
+
+PASSOS (preferencialmente usando GitHub no navegador):
+1. Criar um repositório no GitHub chamado dialeticai-android.
+2. Enviar todos os arquivos/pastas deste ZIP ao repositório mantendo a estrutura.
+3. Abrir a aba Actions do repositório.
+4. Selecionar “Build DialeticAI Android APK” e tocar em “Run workflow”.
+5. Esperar terminar com status verde.
+6. Abrir a execução concluída; na seção Artifacts, baixar DialeticAI-debug-apk.
+7. Extrair o ZIP do artifact e instalar app-debug.apk no Android. Autorizar instalação de fontes desconhecidas quando solicitado.
+
+OBS.: O projeto gerado usa Capacitor 7. A primeira compilação pode demorar alguns minutos.
